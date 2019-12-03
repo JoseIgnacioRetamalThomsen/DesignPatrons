@@ -1,0 +1,16 @@
+interface staff{
+	boolean isOwner();
+	void setReport(ReportGeneratorProxy rg);
+}
+
+interface ReportGeneratorProxy{
+	String generateDayReport();
+}
+
+class Employee implements staff{
+	
+}
+
+public class ProtectionProxyRun {
+
+}
